@@ -36,10 +36,11 @@ module Binance
         dust_log:                        'v3/userAssetDribbletLog.html',
 
         # Futures API
-        fapiExchangeInfo:                'fapi/v1/exchangeInfo',
-        fapiOpenInterestHist:            'futures/data/openInterestHist',
-        fapiTopLongShortPositionRatio:   'futures/data/topLongShortPositionRatio',
-        fapiGlobalLongShortAccountRatio: 'futures/data/globalLongShortAccountRatio'
+        fapi_exchange_info:                'fapi/v1/exchangeInfo',
+        fapi_open_interest_hist:            'futures/data/openInterestHist',
+        fapi_top_long_short_position_ratio:   'futures/data/topLongShortPositionRatio',
+        fapi_global_long_short_account_ratio: 'futures/data/globalLongShortAccountRatio',
+        fapi_24hr: 'fapi/v1/ticker/24hr',
 
       }.freeze
     end

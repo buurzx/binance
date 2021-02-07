@@ -97,10 +97,11 @@ module Binance
         { name: :dust_log, client: :withdraw, action: :get, endpoint: :dust_log },
 
         # futures
-        { name: :fapiExchangeInfo, client: :public, action: :get, endpoint: :fapiExchangeInfo },
-        { name: :fapiOpenInterestHist, client: :verified, action: :get, endpoint: :fapiOpenInterestHist },
-        { name: :fapiTopLongShortPositionRatio, client: :verified, action: :get, endpoint: :fapiTopLongShortPositionRatio },
-        { name: :fapiGlobalLongShortAccountRatio, client: :verified, action: :get, endpoint: :fapiGlobalLongShortAccountRatio }
+        { name: :fapi_exchange_info, client: :public, action: :get, endpoint: :fapi_exchange_info },
+        { name: :fapi_open_interest_hist, client: :verified, action: :get, endpoint: :fapi_open_interest_hist },
+        { name: :fapi_top_long_short_position_ratio, client: :verified, action: :get, endpoint: :fapi_top_long_short_position_ratio },
+        { name: :fapi_global_long_short_account_ratio, client: :verified, action: :get, endpoint: :fapi_global_long_short_account_ratio },
+        { name: :fapi_24hr, client: :verified, action: :public, endpoint: :fapi_24hr }
       ].freeze
     end
   end
