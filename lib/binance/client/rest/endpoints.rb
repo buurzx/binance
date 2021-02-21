@@ -41,6 +41,7 @@ module Binance
         fapi_top_long_short_position_ratio:   'futures/data/topLongShortPositionRatio',
         fapi_global_long_short_account_ratio: 'futures/data/globalLongShortAccountRatio',
         fapi_24hr:                            'fapi/v1/ticker/24hr',
+        klines:                               'fapi/v1/klines'
 
       }.freeze
     end
