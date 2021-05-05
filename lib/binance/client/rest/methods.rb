@@ -25,8 +25,10 @@ module Binance
         { name: :agg_trades, client: :public,
           action: :get, endpoint: :agg_trades },
         # #klines
-        { name: :klines, client: :public,
-          action: :get, endpoint: :klines },
+        { name: :spot_klines, client: :public,
+          action: :get, endpoint: :spot_klines },
+        { name: :futures_klines, client: :public,
+          action: :get, endpoint: :futures_klines },
         # #twenty_four_hour
         { name: :twenty_four_hour, client: :public,
           action: :get, endpoint: :twenty_four_hour },
